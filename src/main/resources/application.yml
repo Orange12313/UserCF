@@ -1,0 +1,21 @@
+server:
+  port: 8080
+  ssl:
+    key-alias: alias
+    key-store-password: priyc8ao
+    key-store-type: PKCS12
+    key-store: classpath:9563220_www.coder-home.top.pfx
+#  address: coder-home.top
+
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://139.224.253.173/bishe
+      username: root
+      password: Djq225522...
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tb_
